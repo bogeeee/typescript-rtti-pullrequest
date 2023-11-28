@@ -6,7 +6,7 @@
         "build": "tspc --build",
         "clean": "tspc --build --clean",
         "test": "npm run build && jest --runInBand",
-        "generatePythagoraTests": "npx pythagora --unit-tests --func matchesValue"
+        "generatePythagoraTests": "npm run clean && npx pythagora --force --unit-tests --func matchesValue"
     },
     "dependencies": {
         "typescript-rtti": "^0.9.6"
