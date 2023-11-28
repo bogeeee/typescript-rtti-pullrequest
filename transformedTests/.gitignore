@@ -1,5 +1,6 @@
 /node_modules/
 /dist/
+.pythagora/
 /**/*.js
 /**/*.map
 /**/*.d.ts
